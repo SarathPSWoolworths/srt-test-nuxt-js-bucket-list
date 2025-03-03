@@ -11,6 +11,17 @@
     </ul>
   </div>
 </template>
+<script setup>
+useHead({
+  title: 'Srt Testing Nuxt',
+  meta: [
+    {
+      name: 'description',
+      content: 'This is a test page for SRT'
+    }
+  ]
+}); 
+</script>
 
 <script>
 export default {
